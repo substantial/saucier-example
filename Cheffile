@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+site 'http://community.opscode.com/api/v1'
+
+# server base cookbooks
+cookbook 'users'
+cookbook 'sudo'
+cookbook 'apt'
+cookbook 'git'
+cookbook 'vim'
+cookbook 'ubuntu'
+cookbook 'build-essential'
+cookbook 'chef-solo-search', :git => 'https://github.com/edelight/chef-solo-search.git'

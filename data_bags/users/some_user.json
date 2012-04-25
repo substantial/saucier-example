@@ -1,0 +1,8 @@
+{
+  "id": "someuser",
+  "ssh_keys": "ssh key",
+  "groups": ["sysadmin", "rvm"],
+  "uid": 5777,
+  "shell": "\/bin\/bash",
+  "comment": "Some user"
+}

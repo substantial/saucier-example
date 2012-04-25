@@ -1,0 +1,5 @@
+.DS_STORE
+.rvmrc
+cookbooks
+tmp
+.vagrant
