@@ -6,17 +6,13 @@ require 'cap-strap'
 require 'saucier'
 
 set :application, "teamcity-build-agent"
-set :repository, "repo_location"
+set :repository, "https://github.com/substantial/saucier-example"
 
-set :deploy_user, "deploy"
-
-# NOTE: it's not recommended to include keys in the repo
-set :authorized_keys_file, "config/authorized-keys"
-set :deploy_key_file, "config/deploy-key"
+set :group, "rvm"
 
 set :chef_deploy_to, "/etc/chef"
 
-set :default_ruby, "1.9.3-p125-perf"
+set :default_ruby, "1.9.3-p125"
 set :rubies, [
               "1.9.3-p125",
               {
@@ -25,14 +21,14 @@ set :rubies, [
               }
              ]
 
+# default is the default ruby
 set :chef_ruby, "1.9.3-p125-perf"
+# default is global
 set :chef_gemset, "chef"
 
 # below are the default values. only showing that they're configurable
 # set :chef_solo_config, ".chef/solo.rb"
 # set :chef_node_config, ".chef/node.json"
-set :user, "deploy"
-set :group, "rvm"
 
 ssh_options[:forward_agent] = true
 
