@@ -5,8 +5,11 @@ Usage
 ======
 For initial bootstrapping and deploying:
 
+Spinup the virtual machine: `$ vagrant up`
+
 Vagrant Note: root username and password is vagrant
-* `cap bootstrap -s user=vagrant` - This is provided by cap-strap
+
+* `cap bootstrap` - Providied by [cap-strap](https://github.com/substantial/cap-strap)
 
 * `cap provision:setup`
 * `cap provision`
@@ -17,3 +20,5 @@ For updating servers:
 
 For adding rubies:
 * Add desired rubies and patches to deploy.rb and run `cap rvm:install_rubies`
+
+When finished: `$ vagrant destroy`
