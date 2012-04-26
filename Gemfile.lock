@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/shaun/Desktop/workspace/chef-stuff/saucier
+GIT
+  remote: https://github.com/substantial/saucier
+  revision: a981a49ec5be3822593a7d3d5b69ebf338b6052e
   specs:
     saucier (0.0.1)
       capistrano (>= 2.0.0)
@@ -9,7 +10,7 @@ GEM
   specs:
     archive-tar-minitar (0.5.2)
     bunny (0.7.9)
-    cap-strap (0.0.7)
+    cap-strap (0.0.9)
       capistrano (>= 2.0.0)
     capistrano (2.12.0)
       highline
