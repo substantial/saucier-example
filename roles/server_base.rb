@@ -6,8 +6,7 @@ run_list(
   "recipe[users::sysadmins]",
   "recipe[sudo]",
   "recipe[git]",
-  "recipe[vim]",
-  "recipe[server-essentials]"
+  "recipe[vim]"
 )
 
 default_attributes ({
