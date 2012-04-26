@@ -1,6 +1,6 @@
 {
   "id": "someuser",
-  "ssh_keys": "ssh key",
+  "ssh_keys": "put your pubkey here",
   "groups": ["sysadmin", "rvm"],
   "uid": 5777,
   "shell": "\/bin\/bash",
