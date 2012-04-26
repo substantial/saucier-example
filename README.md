@@ -1,6 +1,8 @@
 Sample saucier project
 =============================
 
+This is a sample project for [saucier](https://github.com/substantial/saucier)
+
 Usage
 ======
 For initial bootstrapping and deploying:
@@ -9,7 +11,7 @@ Spinup the virtual machine: `$ vagrant up`
 
 Vagrant Note: root username and password is vagrant
 
-* `cap bootstrap` - Providied by [cap-strap](https://github.com/substantial/cap-strap)
+* `cap bootstrap` - Provided by [cap-strap](https://github.com/substantial/cap-strap)
 
 * `cap provision:setup`
 * `cap provision`
