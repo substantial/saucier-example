@@ -11,7 +11,7 @@ set :repository, "repo_location"
 set :deploy_user, "deploy"
 
 # NOTE: it's not recommended to include keys in the repo
-set :authorized_keys_file, "config/authorized_keys"
+set :authorized_keys_file, "config/authorized-keys"
 set :deploy_key_file, "config/deploy-key"
 
 set :chef_deploy_to, "/etc/chef"
