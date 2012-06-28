@@ -6,14 +6,15 @@ This is a sample project for [saucier](https://github.com/substantial/saucier)
 Usage
 ======
 For initial bootstrapping and deploying:
-
-Spinup the virtual machine: `$ vagrant up`
+* `gem install vagrant`
+* Spinup the virtual machine: `vagrant up`
 
 Vagrant Note: root username and password is vagrant
 
+* `bundle install`
 * `cap bootstrap` - Provided by [cap-strap](https://github.com/substantial/cap-strap)
-
 * `cap provision:setup`
+* `librarian-chef install`
 * `cap provision`
 
 For updating servers:
@@ -23,4 +24,4 @@ For updating servers:
 For adding rubies:
 * Add desired rubies and patches to deploy.rb and run `cap rvm:install_rubies`
 
-When finished: `$ vagrant destroy`
+When finished: `vagrant destroy`
